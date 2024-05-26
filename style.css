@@ -94,9 +94,10 @@
      transform: rotateY(180deg);
  }
  
- .card_match.front_card {
-     background-color: var(--bg-card);
- }
+ .card_match .front_card {
+    background-color: var(--bg-card);
+}
+
  
  .btn {
      padding: 15px;

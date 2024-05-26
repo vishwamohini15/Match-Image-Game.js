@@ -42,6 +42,7 @@ let card_selected=document.querySelectorAll(".card-selected")
 
 card_selected.forEach((curElm)=>{
      curElm.classList.add("card_match")
+     curElm.classList.remove("card-selected");
 })
 
 score++;
